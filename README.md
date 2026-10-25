@@ -18,7 +18,7 @@ into a data warehouse to analyse player progression.
 ## Datasets
 1. TETR.IO public API – daily snapshot
 2. Kaggle – TETR.IO Player data
-3. Kaggle – Tetr.io Top Players Replays
+3. Kaggle – Tetr.io Top Players Replays (Considered, but removed)
 
 ## Setup
 pip install -r requirements.txt
