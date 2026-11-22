@@ -20,6 +20,9 @@ DATA_DIR = ROOT / "data"
 RAW_API_DIR = DATA_DIR / "raw" / "tetrio"       # raw layer, D1 (one JSON per day)
 RAW_KAGGLE_DIR = DATA_DIR / "raw" / "tl_data"   # raw layer, D2 (one-off download)
 CURATED_DIR = DATA_DIR / "curated"              # cleaned + integrated tables
+WAREHOUSE_DIR = DATA_DIR / "warehouse"            # DuckDB file (not committed)
+WAREHOUSE_PATH = WAREHOUSE_DIR / "tetrio.duckdb"
+WAREHOUSE_SQL_DIR = ROOT / "warehouse"          # schema.sql, load.sql, queries.sql
 LOG_DIR = ROOT / "logs"
 
 # ---------- D1: TETR.IO API ----------

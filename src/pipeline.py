@@ -1,4 +1,4 @@
-"""End-to-end pipeline: ingestion -> processing -> integration.
+"""End-to-end pipeline: ingestion -> processing -> integration -> load.
 
 Run from the repository root:
     python -m src.pipeline              # full run (fetches today's snapshot)
@@ -9,6 +9,7 @@ import sys
 import time
 
 from src.ingestion import kaggle_loader, tetrio_api
+from src.load import warehouse
 from src.monitoring.logger import get_logger
 from src.transformation import integrate
 
@@ -30,6 +31,7 @@ def main(argv: list[str] | None = None) -> int:
         else:
             tetrio_api.run()                # D1: today's snapshot
         integrate.run()                     # processing + integration
+        warehouse.run()                     # load: star schema in DuckDB
     except Exception:
         # log.exception records the full traceback in logs/pipeline.log.
         # This is the hook where the alerting step will be added.
