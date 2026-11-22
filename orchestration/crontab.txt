@@ -1,0 +1,14 @@
+# Daily schedule of the TETR.IO pipeline (cron, local machine - interim solution)
+#
+# Field order: minute hour day-of-month month day-of-week
+# "7 21 * * *" = every day at 21:07 local time (Europe/Madrid).
+# Minute 7 instead of 0 avoids the moment when many scheduled jobs start.
+#
+# - cd: cron starts in the home folder, the pipeline needs the repo root
+# - PATH: makes the project's Python and the kaggle CLI available
+# - >> logs/cron.log 2>&1: keeps output and errors that happen before the
+#   pipeline's own logger starts (e.g. Python not found)
+#
+# Limitation: only runs if the Mac is on and awake at 21:07.
+# Planned production replacement: GitHub Actions scheduled workflow.
+7 21 * * * cd /Users/hermes/p1-deps-prototype/tetrio-analytics && PATH=/Users/hermes/p1-deps-prototype/tetrio-analytics/.venv/bin:/usr/bin:/bin ./.venv/bin/python -m src.pipeline >> logs/cron.log 2>&1
