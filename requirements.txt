@@ -4,3 +4,4 @@ kaggle
 python-dotenv
 pyyaml
 pytest
+pyarrow

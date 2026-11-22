@@ -28,3 +28,5 @@ venv/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+logs/
+notebooks/profile_output.txt
