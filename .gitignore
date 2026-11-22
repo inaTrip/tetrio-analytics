@@ -30,3 +30,4 @@ venv/
 *.synctex.gz
 logs/
 notebooks/profile_output.txt
+data/warehouse/
