@@ -25,6 +25,7 @@ This document covers how AI was used **to build the project**. It is separate fr
 | 22/11/2026 | Hermes | **Scheduling:** `orchestration/crontab.txt` | "Ok, lets set the cron job. Is this needed for checkpoint 2?" | Schedule time chosen and tested on the team member's machine |
 | 22/11/2026 | Hermes | **Orchestration plan:** `docs/orchestration.md`; text of GitHub issues #1 and #2 (tasks for the architecture and monitoring documents) | "Okay, I would like to leave some work for my teammates. [...] for the orchestration plan, we could finish it, the written plan to be done [...]", "Ok its is uploaded. Make me a checklist of the things left and also tell me exactly what to do with the issues" | None |
 | 22/11/2026 | Hermes | **Checkpoint 2 status update** (sections not marked as team work), **this disclosure file** and the updated **`README.md`** | "Ok, the issues are created. What should be the next steps? Modifying what and I also think modifying the latex right?", followed by the current README content | Sections 2, 3 and 8 (alerting) of the status update to be written by the team (issues #1 and #2) |
+| 23/11/2026 | Hermes | **Daily sanity check:** `notebooks/check_daily.py` | "Okay, so I have some things to tell you. First of all, tell me what to check tonight [...]" | None |
 
 ## Responsibility
 
