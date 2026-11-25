@@ -28,7 +28,8 @@ This document covers how AI was used **to build the project**. It is separate fr
 | 22/11/2026 | Hermes | **Orchestration plan:** `docs/orchestration.md`; text of GitHub issues #1 and #2 (tasks for the architecture and monitoring documents) | "Okay, what is the best option for the orchestration plan? "| None |
 | 22/11/2026 | Hermes | **Checkpoint 2 status update** (sections not marked as team work), **this disclosure file** and the updated **`README.md`** | "Ok, the issues are created. What should be the next steps?" | Sections 2, 3 and 8 (alerting) of the status update to be written by the team (issues #1 and #2) |
 | 23/11/2026 | Hermes | **Daily sanity check:** `notebooks/check_daily.py` | "tell me what to check tonight" | None |
-| 24/11/2026 | Hermes | **Architecture document:** `docs/architecture.md` (lifecycle mapping, architecture diagram, cluster design, warehouse choice, environmental impact) | "guide me thriugh the steps" | None |
+| 24/11/2026 | Hermes | **Architecture document:** `docs/architecture.md` (lifecycle mapping, architecture diagram, cluster design, warehouse choice, environmental impact) | "guide me through the steps" | None || 24/11/2026 | Hermes | **Monitoring document:** `docs/monitoring.md` (logging and alerting design) | "Could you tell me what to do step by step what do I have to do?" | None |
+| 25/11/2026 | Hermes | **Checkpoint 2 status update (final version):** sections 2, 3 and 8, results update, AI disclosure section | "Ok, this is what I have right now. Can I hand it in?" | Team edited the Work Organisation and AI disclosure sections |
 
 ## Responsibility
 
