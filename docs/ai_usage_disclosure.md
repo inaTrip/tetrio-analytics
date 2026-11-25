@@ -11,6 +11,8 @@ This document covers how AI was used **to build the project**. It is separate fr
 | Member | Tool and model | Access |
 |---|---|---|
 | Hermes Benito Andrés | Claude (Anthropic), model Claude Opus 5.5 | Claude desktop application |
+| Eduardo Lázaro Esperón | ||
+| Mariano Latre López | ||
 
 ## Record
 
